@@ -1,0 +1,102 @@
+/** Radio Image Button */
+.featured-image-upload {
+    margin-top: 15px;
+}
+
+.page-meta-box.form-table td{
+	padding: 5px;
+}
+
+.f13{
+	font-size: 13px !important; 
+	line-height: 16px
+}
+
+.radio-image-wrapper{
+	margin-right: 25px; 
+	float: left;
+}
+
+.hide-radio{
+	position: relative;
+	margin-bottom: 6px;
+}
+
+.hide-radio img, .hide-radio label{
+	display: block;
+}
+
+.hide-radio input[type="radio"]{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	opacity: 0;
+}
+
+.hide-radio input[type=radio] + label {
+	border: 3px solid #F1F1F1;
+}
+
+.hide-radio input[type=radio]:checked + label {
+  border: 3px solid #CCC;
+}
+
+/** Radio Image Button Ends */
+
+.wp-block-quote {
+    margin: 1.5em 0;
+    font-size: 1.1em;
+    font-weight: 400;
+    position: relative;
+    background: rgba(0, 0, 0, 0.05);
+    border-left: none;
+    padding: 90px 50px 40px 50px;
+    text-align: center;
+    line-height: 1.95;
+}
+
+.wp-block-quote::before {
+    content: "";
+    background-color: #ccc;
+    -webkit-mask-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" width="50" height="41" viewBox="0 0 50 41"><path d="M.008,58.5a9.125,9.125,0,1,0,6.153-8.6c2.048-11.746,11.207-19.32,2.717-13.086C-.537,43.721,0,58.219.009,58.485.009,58.489.008,58.493.008,58.5Z" transform="translate(0 -34.571)" fill="rgba(255, 189, 189, 0.3)"/><path d="M266.069,58.5a9.125,9.125,0,1,0,6.153-8.6c2.048-11.746,11.208-19.32,2.717-13.086-9.415,6.913-8.88,21.411-8.869,21.677C266.069,58.489,266.069,58.493,266.069,58.5Z" transform="translate(-246.04 -34.571)" fill="rgba(255, 189, 189, 0.3)"/></svg>');
+    mask-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" width="50" height="41" viewBox="0 0 50 41"><path d="M.008,58.5a9.125,9.125,0,1,0,6.153-8.6c2.048-11.746,11.207-19.32,2.717-13.086C-.537,43.721,0,58.219.009,58.485.009,58.489.008,58.493.008,58.5Z" transform="translate(0 -34.571)" fill="rgba(255, 189, 189, 0.3)"/><path d="M266.069,58.5a9.125,9.125,0,1,0,6.153-8.6c2.048-11.746,11.208-19.32,2.717-13.086-9.415,6.913-8.88,21.411-8.869,21.677C266.069,58.489,266.069,58.493,266.069,58.5Z" transform="translate(-246.04 -34.571)" fill="rgba(255, 189, 189, 0.3)"/></svg>');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    width: 50px;
+    height: 41px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.wp-block-quote .wp-block-quote__citation {
+    display: inline-block;
+    font-size: 0.8em;
+    font-style: normal;
+    color: #777;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.5;
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" width="17.879" height="62.936" viewBox="0 0 17.879 62.936"><path d="M17.879,0C12.942,0,8.939,6.932,8.939,15.484S4.937,30.968,0,30.968c4.937,0,8.939,6.932,8.939,15.484s4,15.484,8.939,15.484" transform="translate(0 0.5)" fill="none" stroke="%23000" stroke-width="1"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+}
+
+.wp-block-quote.is-style-large {
+    text-align: left;
+    padding: 40px 50px;
+}
+
+.wp-block-quote.is-style-large::before {
+    right: auto;
+    left: 50px;
+}
